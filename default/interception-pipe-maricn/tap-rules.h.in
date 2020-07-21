@@ -1,0 +1,33 @@
+/* caps2esc */
+{ .base_key = KEY_CAPSLOCK, .tap_key = KEY_ESC, .repeat_key = KEY_LEFTCTRL, .hold_key = KEY_LEFTCTRL, .hold_immediately = 1 },
+
+// { .base_key = KEY_SPACE, .tap_key = KEY_SPACE, .repeat_key = KEY_RESERVED, .hold_key = KEY_SPACE, .hold_immediately = 1 },
+
+// Vim overlay {{{ 
+    { TAP(KEY_SPACE), .action_key = KEY_H, .hold_key = KEY_LEFT,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_J, .hold_key = KEY_DOWN,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_K, .hold_key = KEY_UP,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_L, .hold_key = KEY_RIGHT,     .tap_typing = 1 },
+
+    { TAP(KEY_SPACE), .action_key = KEY_Y, .hold_key = KEY_HOME,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_U, .hold_key = KEY_PAGEDOWN,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_I, .hold_key = KEY_PAGEUP,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_O, .hold_key = KEY_END,     .tap_typing = 1 },
+
+    { TAP(KEY_SPACE), .action_key = KEY_D, .hold_key = KEY_DELETE,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_B, .hold_key = KEY_BACKSPACE,     .tap_typing = 1 },
+
+
+    { TAP(KEY_SPACE), .action_key = KEY_1, .hold_key = KEY_F1,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_2, .hold_key = KEY_F2,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_3, .hold_key = KEY_F3,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_4, .hold_key = KEY_F4,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_5, .hold_key = KEY_F5,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_6, .hold_key = KEY_F6,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_7, .hold_key = KEY_F7,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_8, .hold_key = KEY_F8,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_9, .hold_key = KEY_F9,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_0, .hold_key = KEY_F10,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_MINUS, .hold_key = KEY_F11,     .tap_typing = 1 },
+    { TAP(KEY_SPACE), .action_key = KEY_EQUAL, .hold_key = KEY_F12,     .tap_typing = 1 },
+// }}}
